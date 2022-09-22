@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.howtodoinjava.demo</groupId>
+  <groupId>com.guru.demo</groupId>
   <artifactId>DropWizardExample</artifactId>
   <name>DropWizardExample</name>
   <version>0.0.1-SNAPSHOT</version>
@@ -29,7 +29,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.howtodoinjava.rest.App</mainClass>
+                  <mainClass>com.guru.rest.App</mainClass>
                 </transformer>
                 <transformer />
               </transformers>

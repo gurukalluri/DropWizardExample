@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.howtodoinjava.demo</groupId>
+	<groupId>com.guru.demo</groupId>
 	<artifactId>DropWizardExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -71,7 +71,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.howtodoinjava.rest.App</mainClass>
+									<mainClass>com.guru.rest.App</mainClass>
 								</transformer>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer">

@@ -5,12 +5,12 @@ repositories {
 }
 
 dependencies {
-    compile group: 'com.howtodoinjava.demo', name: 'dropwizard-core', version: '1.0.0'
+    compile group: 'com.guru.demo', name: 'dropwizard-core', version: '1.0.0'
 }
 
 apply plugin: 'application'
 
-mainClassName = 'com.howtodoinjava.rest.App'
+mainClassName = 'com.guru.rest.App'
 
 run {
     args 'server'
